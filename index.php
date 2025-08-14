@@ -4,7 +4,7 @@ $update = false;
 $delete = false;
 $servername = "localhost";
 $username = "root";
-$password = "password";
+$password = "";
 $database = "notes";
 mysqli_report(MYSQLI_REPORT_OFF);
 $conn = mysqli_connect($servername, $username, $password, $database);
@@ -202,4 +202,5 @@ Array.from(deletes).forEach((element)=>{
 })
 </script>
 </body>
+
 </html>
